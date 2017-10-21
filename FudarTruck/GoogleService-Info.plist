@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>663510636375-d3ndl7k8lkeqckh3hpot5vrsma1171kj.apps.googleusercontent.com</string>
+	<string>663510636375-qqid1df45ti97oo0ktf1v78eh559n1su.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.663510636375-d3ndl7k8lkeqckh3hpot5vrsma1171kj</string>
+	<string>com.googleusercontent.apps.663510636375-qqid1df45ti97oo0ktf1v78eh559n1su</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBfcVPfWwYFhzHGuyWKml9q4ArYFyXapcE</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.sevy.Fu-darDatabase</string>
+	<string>com.sevy.FudarTruck</string>
 	<key>PROJECT_ID</key>
 	<string>fudar-2c952</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:663510636375:ios:6e9ed64d3b1e5d8b</string>
+	<string>1:663510636375:ios:d835033b3ac96e55</string>
 	<key>DATABASE_URL</key>
 	<string>https://fudar-2c952.firebaseio.com</string>
 </dict>

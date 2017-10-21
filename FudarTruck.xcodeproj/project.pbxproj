@@ -12,6 +12,9 @@
 		2633560D1F9BD27F002AD30A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2633560C1F9BD27F002AD30A /* Item.swift */; };
 		2633560F1F9BD2A8002AD30A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2633560E1F9BD2A8002AD30A /* Order.swift */; };
 		263356111F9BD402002AD30A /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263356101F9BD402002AD30A /* BaseTextField.swift */; };
+		263356131F9BE6C4002AD30A /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263356121F9BE6C4002AD30A /* Notification+Extension.swift */; };
+		263356151F9BE7C6002AD30A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263356141F9BE7C6002AD30A /* UIColor+Extension.swift */; };
+		263356181F9BF0D6002AD30A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 263356171F9BF0D6002AD30A /* GoogleService-Info.plist */; };
 		26924E421F9BC4250006B8BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924E411F9BC4250006B8BB /* AppDelegate.swift */; };
 		26924E441F9BC4250006B8BB /* TruckSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924E431F9BC4250006B8BB /* TruckSignUpViewController.swift */; };
 		26924E471F9BC4250006B8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26924E451F9BC4250006B8BB /* Main.storyboard */; };
@@ -48,6 +51,9 @@
 		2633560C1F9BD27F002AD30A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2633560E1F9BD2A8002AD30A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		263356101F9BD402002AD30A /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		263356121F9BE6C4002AD30A /* Notification+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extension.swift"; sourceTree = "<group>"; };
+		263356141F9BE7C6002AD30A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		263356171F9BF0D6002AD30A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		26924E3E1F9BC4250006B8BB /* FudarTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FudarTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26924E411F9BC4250006B8BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26924E431F9BC4250006B8BB /* TruckSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckSignUpViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +67,6 @@
 		26924E5D1F9BC4250006B8BB /* FudarTruckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FudarTruckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26924E611F9BC4250006B8BB /* FudarTruckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FudarTruckUITests.swift; sourceTree = "<group>"; };
 		26924E631F9BC4250006B8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26924E6F1F9BC5F30006B8BB /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
 		26924E711F9BC6A90006B8BB /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		26924E741F9BC9520006B8BB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		26924E761F9BC9C10006B8BB /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -139,6 +144,7 @@
 		26924E401F9BC4250006B8BB /* FudarTruck */ = {
 			isa = PBXGroup;
 			children = (
+				263356171F9BF0D6002AD30A /* GoogleService-Info.plist */,
 				26924E411F9BC4250006B8BB /* AppDelegate.swift */,
 				26924E451F9BC4250006B8BB /* Main.storyboard */,
 				26924E731F9BC6CB0006B8BB /* ViewController */,
@@ -147,8 +153,9 @@
 				26924E481F9BC4250006B8BB /* Assets.xcassets */,
 				26924E4A1F9BC4250006B8BB /* LaunchScreen.storyboard */,
 				26924E4D1F9BC4250006B8BB /* Info.plist */,
-				26924E6F1F9BC5F30006B8BB /* GoogleService-Info (2).plist */,
 				26924E741F9BC9520006B8BB /* UIViewController+Extension.swift */,
+				263356121F9BE6C4002AD30A /* Notification+Extension.swift */,
+				263356141F9BE7C6002AD30A /* UIColor+Extension.swift */,
 				263356101F9BD402002AD30A /* BaseTextField.swift */,
 			);
 			path = FudarTruck;
@@ -310,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26924E4C1F9BC4250006B8BB /* LaunchScreen.storyboard in Resources */,
+				263356181F9BF0D6002AD30A /* GoogleService-Info.plist in Resources */,
 				26924E491F9BC4250006B8BB /* Assets.xcassets in Resources */,
 				26924E471F9BC4250006B8BB /* Main.storyboard in Resources */,
 			);
@@ -377,7 +385,6 @@
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/KYNavigationProgress/KYNavigationProgress.framework",
-				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -389,7 +396,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYNavigationProgress.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -406,8 +412,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263356131F9BE6C4002AD30A /* Notification+Extension.swift in Sources */,
 				26924E751F9BC9520006B8BB /* UIViewController+Extension.swift in Sources */,
 				26924E721F9BC6A90006B8BB /* FirebaseManager.swift in Sources */,
+				263356151F9BE7C6002AD30A /* UIColor+Extension.swift in Sources */,
 				263356111F9BD402002AD30A /* BaseTextField.swift in Sources */,
 				26924E771F9BC9C10006B8BB /* LocationManager.swift in Sources */,
 				2633560F1F9BD2A8002AD30A /* Order.swift in Sources */,

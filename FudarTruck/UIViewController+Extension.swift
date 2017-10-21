@@ -89,16 +89,17 @@ extension UIViewController {
 // MARK: - Public Instance Methods For SCLAlertView
 extension UIViewController {
 
-    func showErrorAlert(title: String, subTitle: String) {
-        let alert = LYAlertViewController(shouldAutoDismiss: true, shouldShowCloseButton: false)
-        alert.showErrorAlert(title: title, subtitle: subTitle)
+    func showAlert(title: String, subTitle: String) -> UIAlertController {
+        let alert = UIAlertController(title: title, message: subTitle, preferredStyle: .alert)
+        return alert.showAlert(title: title, subTitle: subTitle)
     }
 
-
-    func showInfoAlert(title: String, subTitle: String) {
-        let alert = LYAlertViewController(shouldAutoDismiss: true, shouldShowCloseButton: false)
-        alert.showInfoAlert(title: title, subtitle: subTitle)
-    }
+//
+//    func showInfoAlert(title: String, subTitle: String) {
+//        let alert = UIAlertController(
+//        let alert = UIAlertController(shouldAutoDismiss: true, shouldShowCloseButton: false)
+//        alert.showInfoAlert(title: title, subtitle: subTitle)
+//    }
 }
 
 
@@ -113,13 +114,13 @@ extension UIViewController {
         activityIndicatorView.alpha = 0
         activityIndicatorView.startAnimating()
         view.addSubview(activityIndicatorView)
-        activityIndicatorView.animateShow()
+        //activityIndicatorView.animateShow()
     }
 
     /// Dismisses the native activity indicator from the center of the view.
     func dismissActivityIndicator() {
         guard let activityIndicatorView = view.subviews.filter({ $0.tag == 99 }).first else { return }
-        activityIndicatorView.animateHide()
+        //activityIndicatorView.animateHide()
         activityIndicatorView.removeFromSuperview()
     }
 }

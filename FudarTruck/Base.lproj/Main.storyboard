@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LpO-oC-0wP">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,21 +14,21 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="TruckSignUpViewController" customModule="FudarTruck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Pb-kT-zDe">
-                                <rect key="frame" x="149.5" y="94" width="75" height="75"/>
+                                <rect key="frame" x="317" y="94" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="Zfx-xa-0se"/>
-                                    <constraint firstAttribute="width" constant="75" id="apC-ri-gd3"/>
+                                    <constraint firstAttribute="height" constant="200" id="Zfx-xa-0se"/>
+                                    <constraint firstAttribute="width" constant="200" id="apC-ri-gd3"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VU8-3P-hLp">
-                                <rect key="frame" x="16" y="177" width="343" height="364"/>
+                                <rect key="frame" x="16" y="302" width="802" height="364"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Truck Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OLU-92-jdm" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="8" y="8" width="327" height="40"/>
+                                        <rect key="frame" x="8" y="8" width="786" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="50l-HC-9BU"/>
                                         </constraints>
@@ -37,7 +37,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Description (optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ACd-vm-i0Y" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="8" y="56" width="327" height="40"/>
+                                        <rect key="frame" x="8" y="56" width="786" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="aq9-68-Sye"/>
                                         </constraints>
@@ -46,7 +46,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Truck admin email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fIV-9O-yYj" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="8" y="104" width="327" height="40"/>
+                                        <rect key="frame" x="8" y="104" width="786" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Vgk-lW-4xO"/>
                                             <constraint firstAttribute="height" constant="40" id="uRV-pk-KVv"/>
@@ -55,8 +55,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Ok-oI-5xx" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="8" y="152" width="327" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password (min. six characters)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Ok-oI-5xx" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="8" y="152" width="786" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="40" id="KIi-lk-nyG"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="QMb-Xd-e3p"/>
@@ -66,8 +66,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="confirm password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3yi-cZ-4Pd" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="8" y="200" width="327" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="confirm password  (min. six characters)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3yi-cZ-4Pd" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="8" y="200" width="786" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="0Jb-Yj-PQC"/>
                                         </constraints>
@@ -76,11 +76,11 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsE-pJ-MjF">
-                                        <rect key="frame" x="16" y="290" width="311" height="45"/>
+                                        <rect key="frame" x="16" y="290" width="770" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="po3-iy-ahr"/>
                                         </constraints>
-                                        <state key="normal" title="Create Account"/>
+                                        <state key="normal" title="Create Account | Locate Your Truck"/>
                                         <connections>
                                             <action selector="createTruckTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qx6-eX-p3U"/>
                                         </connections>
@@ -123,11 +123,11 @@
                     <navigationItem key="navigationItem" title="Create Account" id="uea-Wb-mBR"/>
                     <connections>
                         <outlet property="confirmTextField" destination="3yi-cZ-4Pd" id="SYO-1h-8UB"/>
-                        <outlet property="createTruckTextField" destination="JsE-pJ-MjF" id="8aU-zM-EIW"/>
+                        <outlet property="createTruckButton" destination="JsE-pJ-MjF" id="ahW-Rt-Y5S"/>
                         <outlet property="descriptionTextField" destination="ACd-vm-i0Y" id="ZSp-Av-yvm"/>
+                        <outlet property="emailTextField" destination="fIV-9O-yYj" id="HKa-t2-gBP"/>
                         <outlet property="passwordTextField" destination="3Ok-oI-5xx" id="Vny-8c-wUT"/>
-                        <outlet property="truckDescriptionTextField" destination="fIV-9O-yYj" id="2KC-Cw-vwx"/>
-                        <outlet property="truckNameTextField" destination="3yi-cZ-4Pd" id="Hst-lg-Fz0"/>
+                        <outlet property="truckNameTextField" destination="OLU-92-jdm" id="h58-ws-3hv"/>
                         <segue destination="U6e-44-Izz" kind="show" id="A31-bj-Mdo"/>
                     </connections>
                 </viewController>
@@ -140,11 +140,11 @@
             <objects>
                 <viewController id="U6e-44-Izz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nhL-06-dkY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gg4-8D-WxR">
-                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <rect key="frame" x="394" y="541" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
@@ -165,19 +165,42 @@
             <objects>
                 <viewController id="Hss-9P-E61" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UHD-r0-F9v">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3DS-jR-fvn">
+                                <rect key="frame" x="16" y="1012" width="802" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cwu-Qh-FLv"/>
+                                </constraints>
+                                <state key="normal" title="Create A New Truck Account"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="8Iy-v1-st7"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wx6-6J-bjc">
+                                <rect key="frame" x="317" y="164" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="P2q-a0-1Es"/>
+                                    <constraint firstAttribute="width" constant="200" id="wUG-84-L21"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3DS-jR-fvn" firstAttribute="leading" secondItem="7ia-E0-Dvu" secondAttribute="leading" constant="16" id="4dO-et-YH3"/>
+                            <constraint firstItem="7ia-E0-Dvu" firstAttribute="trailing" secondItem="3DS-jR-fvn" secondAttribute="trailing" constant="16" id="A6e-9E-XbD"/>
+                            <constraint firstItem="7ia-E0-Dvu" firstAttribute="bottom" secondItem="3DS-jR-fvn" secondAttribute="bottom" constant="50" id="Bhr-OJ-ZBG"/>
+                            <constraint firstItem="Wx6-6J-bjc" firstAttribute="centerX" secondItem="UHD-r0-F9v" secondAttribute="centerX" id="dK3-2j-50R"/>
+                            <constraint firstItem="Wx6-6J-bjc" firstAttribute="top" secondItem="7ia-E0-Dvu" secondAttribute="top" constant="100" id="u96-Eu-DOh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7ia-E0-Dvu"/>
                     </view>
                     <navigationItem key="navigationItem" id="QKI-e6-GqO"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" id="vwT-Kt-Gyd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NxC-UA-Y6X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="713" y="133"/>
+            <point key="canvasLocation" x="712.94964028776985" y="132.73381294964028"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6Gb-WO-xhn">
@@ -185,7 +208,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LpO-oC-0wP" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vOE-4u-XUJ">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="834" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

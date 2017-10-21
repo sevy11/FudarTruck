@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import UITextField_Shake
 import JVFloatLabeledTextField
 
 @IBDesignable class LYTextField: JVFloatLabeledTextField {
@@ -90,9 +89,9 @@ extension LYTextField {
         return textRect(forBounds: bounds)
     }
 
-    /// Performs a shake animation on the current instance.
-    func performShakeAnimation() {
-        shake(_amountOfShakes, withDelta: _amountOfPointsWide)
-    }
+//    /// Performs a shake animation on the current instance.
+//    func performShakeAnimation() {
+//        shake(_amountOfShakes, withDelta: _amountOfPointsWide)
+//    }
 }
 

@@ -13,10 +13,10 @@ struct Item {
     var name: NSString
     var description: NSString?
     var price: Double
-    var image: URL? {
-        guard let imageURL = imageString else { return nil }
-        return URL(imageURL)
-    }
+//    var image: URL? {
+//        guard let imageURL = imageString else { return nil }
+//        return URL()
+//    }
     var discount: Double // 0 to 1
 
     var imageString: String?

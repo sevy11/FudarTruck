@@ -9,29 +9,36 @@
 import Foundation
 import FirebaseAuth
 
-struct Truck: User {
+final class Truck: User {
     //var truckId: String
     var name: NSString
     var desciption: NSString?
-    var email: NSString
-    var password: NSString
-    var lat: NSString
-    var lon: NSString
-    var menu: [Item]
+    //var email: NSString
+    //var password: NSString
+    var lat: NSString?
+    var lon: NSString?
+    var menu: [Item]?
     var queue: [Order]?
     var rating: Double?
-    var waitTime: Double {
-        if let wait = waitTime {
-            return wait
-        }
-        return 0.0
-    }
+//    var waitTime: Double {
+//        if let wait = wait {
+//            return wait
+//        }
+//        return 0.0
+//    }
+//
+//    var truckAvatar: URL? {
+//        guard let urlString: imageString else { return nil }
+//        return URL(urlString)
+//    }
+//    var wait: Double
+//    var imageString: String? = ""
 
-    var truckAvatar: URL? {
-        guard let urlString: imageString else { return nil }
-        return URL(urlString)
-    }
+    public init(name: NSString) {
+        self.name = name
 
-    var imageString: String?
+
+    }
 }
+
 

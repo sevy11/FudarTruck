@@ -10,7 +10,7 @@ target 'FudarTruck' do
     pod 'Firebase/Database'
     pod 'KYNavigationProgress'
     pod 'IQKeyboardManager'
-    pod 'SCLAlertView'
+    #pod 'SCLAlertView'
     pod 'SVProgressHUD'
     pod 'JVFloatLabeledTextField'
 

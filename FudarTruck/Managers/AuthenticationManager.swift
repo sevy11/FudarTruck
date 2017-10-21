@@ -22,7 +22,7 @@ final class AuthenticationManager {
 }
 
 
-fileprivate extension AuthenticationManager {
+internal extension AuthenticationManager {
 
     // Create the user
     func createUser(email: String, password: String, success: @escaping (_ user: User) -> Void, failure: @escaping (_ error: Error) -> Void) {
