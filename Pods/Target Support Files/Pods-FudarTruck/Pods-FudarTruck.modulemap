@@ -1,0 +1,6 @@
+framework module Pods_FudarTruck {
+  umbrella header "Pods-FudarTruck-umbrella.h"
+
+  export *
+  module * { export * }
+}
