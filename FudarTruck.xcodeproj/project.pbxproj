@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		263356081F9BD223002AD30A /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263356071F9BD223002AD30A /* AuthenticationManager.swift */; };
+		2633560B1F9BD25C002AD30A /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2633560A1F9BD25C002AD30A /* Truck.swift */; };
+		2633560D1F9BD27F002AD30A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2633560C1F9BD27F002AD30A /* Item.swift */; };
+		2633560F1F9BD2A8002AD30A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2633560E1F9BD2A8002AD30A /* Order.swift */; };
+		263356111F9BD402002AD30A /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263356101F9BD402002AD30A /* BaseTextField.swift */; };
 		26924E421F9BC4250006B8BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924E411F9BC4250006B8BB /* AppDelegate.swift */; };
 		26924E441F9BC4250006B8BB /* TruckSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924E431F9BC4250006B8BB /* TruckSignUpViewController.swift */; };
 		26924E471F9BC4250006B8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26924E451F9BC4250006B8BB /* Main.storyboard */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		263356071F9BD223002AD30A /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		2633560A1F9BD25C002AD30A /* Truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
+		2633560C1F9BD27F002AD30A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2633560E1F9BD2A8002AD30A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		263356101F9BD402002AD30A /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
 		26924E3E1F9BC4250006B8BB /* FudarTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FudarTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26924E411F9BC4250006B8BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26924E431F9BC4250006B8BB /* TruckSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckSignUpViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +104,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		263356091F9BD24B002AD30A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2633560A1F9BD25C002AD30A /* Truck.swift */,
+				2633560C1F9BD27F002AD30A /* Item.swift */,
+				2633560E1F9BD2A8002AD30A /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		26924E351F9BC4250006B8BB = {
 			isa = PBXGroup;
 			children = (
@@ -123,11 +143,13 @@
 				26924E451F9BC4250006B8BB /* Main.storyboard */,
 				26924E731F9BC6CB0006B8BB /* ViewController */,
 				26924E701F9BC69A0006B8BB /* Managers */,
+				263356091F9BD24B002AD30A /* Models */,
 				26924E481F9BC4250006B8BB /* Assets.xcassets */,
 				26924E4A1F9BC4250006B8BB /* LaunchScreen.storyboard */,
 				26924E4D1F9BC4250006B8BB /* Info.plist */,
 				26924E6F1F9BC5F30006B8BB /* GoogleService-Info (2).plist */,
 				26924E741F9BC9520006B8BB /* UIViewController+Extension.swift */,
+				263356101F9BD402002AD30A /* BaseTextField.swift */,
 			);
 			path = FudarTruck;
 			sourceTree = "<group>";
@@ -155,6 +177,7 @@
 			children = (
 				26924E711F9BC6A90006B8BB /* FirebaseManager.swift */,
 				26924E761F9BC9C10006B8BB /* LocationManager.swift */,
+				263356071F9BD223002AD30A /* AuthenticationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -352,6 +375,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/KYNavigationProgress/KYNavigationProgress.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
@@ -363,6 +387,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYNavigationProgress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
@@ -383,9 +408,14 @@
 			files = (
 				26924E751F9BC9520006B8BB /* UIViewController+Extension.swift in Sources */,
 				26924E721F9BC6A90006B8BB /* FirebaseManager.swift in Sources */,
+				263356111F9BD402002AD30A /* BaseTextField.swift in Sources */,
 				26924E771F9BC9C10006B8BB /* LocationManager.swift in Sources */,
+				2633560F1F9BD2A8002AD30A /* Order.swift in Sources */,
+				263356081F9BD223002AD30A /* AuthenticationManager.swift in Sources */,
+				2633560D1F9BD27F002AD30A /* Item.swift in Sources */,
 				26924E441F9BC4250006B8BB /* TruckSignUpViewController.swift in Sources */,
 				26924E421F9BC4250006B8BB /* AppDelegate.swift in Sources */,
+				2633560B1F9BD25C002AD30A /* Truck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

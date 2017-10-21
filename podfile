@@ -12,5 +12,6 @@ target 'FudarTruck' do
     pod 'IQKeyboardManager'
     pod 'SCLAlertView'
     pod 'SVProgressHUD'
+    pod 'JVFloatLabeledTextField'
 
 end

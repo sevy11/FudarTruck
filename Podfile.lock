@@ -39,6 +39,7 @@ PODS:
   - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
   - GTMSessionFetcher/Core (1.1.12)
   - IQKeyboardManager (5.0.4)
+  - JVFloatLabeledTextField (1.2.1)
   - KYNavigationProgress (2.0.2)
   - leveldb-library (1.18.3)
   - nanopb (0.3.8):
@@ -54,6 +55,7 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Database
   - IQKeyboardManager
+  - JVFloatLabeledTextField
   - KYNavigationProgress
   - SCLAlertView
   - SVProgressHUD
@@ -68,12 +70,13 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
   GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
   IQKeyboardManager: 1df9c0f147af1681cfb2d9977bc30309d45a7e76
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
   KYNavigationProgress: a380f5016e898ea4577049cf7b41895ed2a8da5a
   leveldb-library: 10fb39c39e243db4af1828441162405bbcec1404
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
 
-PODFILE CHECKSUM: ea2178fa54e92cebf05e7b62007f5f8c3864c48f
+PODFILE CHECKSUM: 241b2381e27a736e2606e72d5e536440f497906f
 
 COCOAPODS: 1.3.1
