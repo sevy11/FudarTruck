@@ -14,8 +14,12 @@ final class TruckSignUpViewController: UIViewController {
 
     // IBOutlets
     
-
-
+    @IBOutlet weak var createTruckTextField: UIButton!
+    @IBOutlet weak var truckNameTextField: JVFloatLabeledTextField!
+    @IBOutlet weak var descriptionTextField: JVFloatLabeledTextField!
+    @IBOutlet weak var confirmTextField: JVFloatLabeledTextField!
+    @IBOutlet weak var passwordTextField: JVFloatLabeledTextField!
+    @IBOutlet weak var truckDescriptionTextField: JVFloatLabeledTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
